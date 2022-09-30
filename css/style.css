@@ -129,8 +129,34 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+ }
 
-    .site-header {
-        width: 100vw;
-    }    
+ @media screen and (max-width: 480px) {
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lessons .col{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .steps .col{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .why-us img{
+        width: 100%;
+    }
+    .why-us .col{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+
  }
